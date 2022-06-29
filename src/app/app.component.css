@@ -1,0 +1,200 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+}
+form{
+    padding-bottom: 15px;
+}
+
+h4 {
+    background-color: lightgray;
+    color: black;
+    padding-left: 7px;
+}
+
+.div1 {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+
+}
+
+.div3 {
+    padding-top: 20px;
+    border: none;
+    padding-right: 200px;
+
+}
+
+.form1 label {
+
+    display: block;
+}
+
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+}
+
+input[type=radio] {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 3px;
+}
+input[type=date] {
+    width: 18px;
+}
+
+.div3 {
+    position: relative;
+}
+
+.div3 label {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #999;
+    transition: .5s;
+    pointer-events: none;
+}
+
+.div3 input:focus~label {
+    top: -12px;
+    left: 0;
+}
+
+.div3 input {
+
+    color: rgb(94, 94, 94);
+
+    width: 500px;
+
+    top: 0;
+
+    left: 0;
+
+    transition: .3s;
+
+    font-size: 15px;
+
+    box-sizing: border-box;
+
+    box-shadow: none;
+
+    outline: none;
+
+    border: none;
+
+    padding-right: 400px;
+    width: 100%;
+    border-bottom: 2px solid #999;
+}
+
+/* .div4 input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    padding-left: 500px;
+    width: 50%;
+} */
+/* .div4
+{
+    width: 100%;
+} */
+
+.div4 {
+    position: relative;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.div4 label {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    font-size: 10px;
+    color: #999;
+    transition: .5s;
+    pointer-events: none;
+}
+
+.div4 input:focus~label {
+    top: -12px;
+    left: 0;
+}
+
+.div4 input {
+
+    color: rgb(94, 94, 94);
+    outline: none;
+    border: none;
+    left: 100px;
+width: 100%;
+    border-bottom: 2px solid #999;
+
+}
+
+.gn {
+    text-align: left;
+    background-color: lightgrey;
+
+}
+
+form {
+    line-height: 23px;
+    
+}
+
+
+.form2 input {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+
+}
+
+.form2 label {
+    font-size: 15px;
+    display: block;
+}
+
+.save {
+    background-color: #31B0D5;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 16px;
+    border-color: #46b8da;
+}
+
+.continue {
+    background-color: #31B0D5;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 16px;
+    border-color: #46b8da;
+}
+
+.exit {
+    background-color: transparent;
+    color: #31B0D5;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border-color: #46b8da;
+    margin-right: 1100px;
+    margin-left: 20px;
+}
+
+#box2 {
+ position: relative;
+ bottom: -4px;
+ right: 10px;
+}
